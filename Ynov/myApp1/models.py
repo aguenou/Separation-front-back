@@ -18,3 +18,5 @@ class Chanson(models.Model):
     duree = models.TimeField()
     date = models.DateField()
     artiste = models.ForeignKey(Artiste, on_delete=models.CASCADE)
+
+
